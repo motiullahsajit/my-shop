@@ -22,10 +22,8 @@ const ProductListing = () => {
   }, [])
 
   return (
-    <div className="container mt-5">
-      <div className="row g-5 mt-5">
-        <ProductComponent />
-      </div>
+    <div className="ui grid container mt-5">
+      <ProductComponent />
     </div>
   );
 };
