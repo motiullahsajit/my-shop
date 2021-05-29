@@ -21,7 +21,6 @@ const ProductListing = () => {
     fetchProducts();
   }, [])
 
-  console.log("products", products);
   return (
     <div className="container mt-5">
       <div className="row g-5 mt-5">
